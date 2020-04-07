@@ -9,12 +9,19 @@ It contains the code to produce all plots found within the report.
 This code is run on the stm32L432 microcontroller to take the accoustic sensor input data, and temperature data and relay it to a computer.
 
 ### Set up
-To get the mbed libraries run this command in the Data Aquisition folder
+1. Install Python if you dont have it
+
+2. Intall mbed-cli if you don't have it
+```
+pip install mbed-cli 
+```
+
+3. To get the mbed libraries run this command in the Data Aquisition folder
 ```
 $ mbed deploy
 ```
 
-Install the required packages if you dont have them (recommend to use a virtualenv), requirements.txt is located in \mbed-os
+4. Install the required packages if you dont have them (recommend to use a virtualenv), requirements.txt is located in \mbed-os
 ```
 $ pip install -r requirements.txt
 ```
