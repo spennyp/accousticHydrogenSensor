@@ -1,6 +1,5 @@
 .build
 projectfiles
-*.py*
 .DS_Store
 mbed-os
 mbed_config.h
