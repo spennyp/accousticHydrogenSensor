@@ -1,0 +1,3 @@
+ROOT=.
+TARGET=nucleo_l432kc
+TOOLCHAIN=GCC_ARM
