@@ -47,7 +47,7 @@ To save this data to a file run
 $ mbed sterm > fileName.txt
 ```
 
-Note: This can also easily be run on an arduino (take the code from main.c and change pin labeling and syntax)
+Note: This can also easily be run on an arduino (take the code from main.cpp and change pin labeling and syntax)
 
 
 
